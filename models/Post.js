@@ -13,7 +13,6 @@ class Post extends Model {}
     },
     postTitle: {
       type: DataTypes.STRING(20),
-      allowNull: false,
       unique: true,
     },
     postContent: {
@@ -37,7 +36,6 @@ class Post extends Model {}
   {
     sequelize,
     timestamps: false,
-    freezeTableName: true,
     underscored: true,
     modelName: 'post',
   }

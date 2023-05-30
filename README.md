@@ -37,7 +37,7 @@
   ## Question
   NA
 
-  deployed link : 
+  deployed link : https://techieblog.herokuapp.com/
     
   My GitHub profile is https://github.com/vkyamini
     

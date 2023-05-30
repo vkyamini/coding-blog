@@ -3,14 +3,10 @@
   --secondary: #d5ca54;
   --light-dark: #6f6866;
   --tertiary: #52cece;
-  --border-radius: 0.3rem;
   --primary: #d4ccda;
   --light-dark: #6f6866;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
   background-color: var(--primary);
@@ -51,18 +47,8 @@ input {
 .card-header h2 {
   color: var(--primary);
 }
-
-
-
-.btn-inline {
+.btn-inline , .li-inline{
   display: inline;
-}
-
-.li-inline {
-  display: inline;
-}
-.nav-item {
-  margin: 0 40px;
 }
 .navbar {
   width: 100%;
@@ -70,14 +56,12 @@ input {
   background-color: var(--dark);
   
 }
-
-.nav-item {
+.nav-item , a{
   margin: 0 100px;
-}
-
-.nav-item a {
   color: var(--primary);
 }
+
+
 
 .app-title {
   font-size: 3rem;
@@ -86,7 +70,6 @@ input {
   padding: 0 10px;
   display: inline-block;
 }
-
 .list-item {
   margin-bottom: 10px;
   padding: 1.5%;
@@ -95,21 +78,15 @@ input {
   color: var(--primary);
   text-decoration: none;
 }
-
-
-
-
 .card-header {
   color: var(--primary);
   background-color: var(--dark);
   padding: 1%;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
-
 .card-body {
   padding: 1%;
 }
-
 .form-label,
 .form-input,
 .form-textarea {

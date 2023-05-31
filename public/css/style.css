@@ -1,19 +1,19 @@
 :root {
-  --dark: #3d2b44;
+  --brown: #3d2b44;
   --secondary: #d5ca54;
-  --light-dark: #6f6866;
-  --tertiary: #52cece;
-  --primary: #d4ccda;
-  --light-dark: #6f6866;
+  --light-brown: #6f6866;
+  --light: #52cece;
+  --base: #d4ccda;
+  
 }
 
 
 body {
-  background-color: var(--primary);
+  background-color: var(--base);
   margin: 0;
   padding: 0;
  
-  color: var(--dark);
+  color: var(--brown);
   line-height: 1.5;
   font-size: 16px;
 }
@@ -22,9 +22,9 @@ body {
 h2,h3,h4,h5,h6 {
   font-weight: 700;
   margin: 0;
-  color: var(--dark);
+  color: var(--brown);
   line-height: 1.25;
-}
+} 
 
 
 header {
@@ -45,7 +45,7 @@ input {
 }
 
 .card-header h2 {
-  color: var(--primary);
+  color: var(--base);
 }
 .btn-inline , .li-inline{
   display: inline;
@@ -53,20 +53,20 @@ input {
 .navbar {
   width: 100%;
   position: fixed;
-  background-color: var(--dark);
+  background-color: var(--brown);
   
 }
 .nav-item , a{
   margin: 0 100px;
-  color: var(--primary);
+  color: var(--base);
 }
 
 
 
 .app-title {
   font-size: 3rem;
-  background-color: var(--primary);
-  color: var(--dark);
+  background-color: var(--base);
+  color: var(--brown);
   padding: 0 10px;
   display: inline-block;
 }
@@ -74,13 +74,13 @@ input {
   margin-bottom: 10px;
   padding: 1.5%;
   border-radius: var(--border-radius);
-  background-color: var(--light-dark);
-  color: var(--primary);
+  background-color: var(--light-brown);
+  color: var(--base);
   text-decoration: none;
 }
 .card-header {
-  color: var(--primary);
-  background-color: var(--dark);
+  color: var(--base);
+  background-color: var(--brown);
   padding: 1%;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
@@ -103,7 +103,7 @@ input {
   padding: 1%;
   margin: 5px 0;
   font-size: 1.2rem;
-  border: 2px solid var(--light-dark);
+  border: 2px solid var(--light-brown);
   border-radius: var(--border-radius);
 }
 

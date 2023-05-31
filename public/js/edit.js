@@ -39,7 +39,7 @@ const deleteClickHandler = async () => {
 
   document.location.replace('/dashboard');
 };
-// WHY ONE BUTTON IS SUBMIT AND THE OTHER IS CLICK?
+
 document
   .querySelector('#edit-post-form')
   .addEventListener('submit', editFormHandler);
